@@ -9,6 +9,7 @@ const items = document.querySelectorAll('.item');
 const left = document.querySelector('.left');
 const right = document.querySelector('.right');
 
+
 items.forEach(item => {
     item.addEventListener('dragstart', function (ev) {
         ev.dataTransfer.setData('text/plain', ev.target.id);
