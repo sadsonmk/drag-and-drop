@@ -1,0 +1,44 @@
+/* browser reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* main container styling */
+.container {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(255, 0, 0, 1));
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+
+    /* left and right sections */
+    .left, .right {
+        border: 2px solid white;
+        width: 150px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+
+        /* individual item styles */
+        .item {
+            width: 100px;
+            background: yellow;
+            margin: 10px;
+            padding: 5px;
+            text-align: center;
+            cursor: grab;
+        }
+    }
+}
+
+/* heading styles */
+h3,h4 {
+    margin-top: 5px;
+    color: #fff;
+}
