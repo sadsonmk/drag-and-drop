@@ -39,6 +39,7 @@
 
 /* heading styles */
 h3,h4 {
-    margin-top: 5px;
+    margin-top: 20px;
     color: #fff;
+    text-transform: uppercase;
 }
